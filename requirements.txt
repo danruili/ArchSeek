@@ -1,0 +1,11 @@
+tqdm
+openai
+scikit-learn
+retrying
+json5
+python-dotenv
+requests
+Flask
+replicate
+pandas
+scipy

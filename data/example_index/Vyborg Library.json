@@ -1,0 +1,166 @@
+{
+  "case_id": "42b5c42b-78c7-4c19-8fd5-c466b2eb3d98",
+  "name": "Vyborg Library",
+  "folder_path": "data\\example_dataset\\Vyborg Library",
+  "web_link": "https://en.wikipedia.org/wiki/Vyborg_Library\n",
+  "content": [
+    {
+      "chunked_content": [
+        "Vyborg Library (Finnish: Viipurin kaupunginkirjasto) is a library in Vyborg, Russia, built during the time of Finnish sovereignty (1918 to 1940-44), before the Finnish city of Viipuri was annexed by the former USSR and its Finnish name was changed to Vyborg by the Soviet authorities. The building, built from 1927 to 1935, is an internationally acclaimed design by the Finnish architect Alvar Aalto and one of the major examples of",
+        "to 1935, is an internationally acclaimed design by the Finnish architect Alvar Aalto and one of the major examples of 1920s functionalist architectural design. The library is considered one of the first manifestations of \"regional modernism\".[2] It is particularly famous for its wave-shaped ceiling in the auditorium, the shape of which, Aalto argued, was based on acoustic studies.[3] On completion the library was known as Viipuri Library, but after the",
+        "which, Aalto argued, was based on acoustic studies.[3] On completion the library was known as Viipuri Library, but after the Second World War and Soviet annexation, the library was renamed the Nadezhda Krupskaya Municipal Library. Nowadays, integrated in the Russian Federation city of Vyborg, the library is officially known as the Central City Alvar Aalto Library. The library restoration project lasted almost two decades from 1994 until late 2013.[4] The",
+        "the Central City Alvar Aalto Library. The library restoration project lasted almost two decades from 1994 until late 2013.[4] The restoration work was awarded with the World Monuments Fund / Knoll Modernism Prize in 2014 and the Europa Nostra Award in 2015. Aalto received the commission to design the library after winning first prize (with his proposal titled 'WWW') in an architectural competition for the building held in 1927. Aalto's",
+        "after winning first prize (with his proposal titled 'WWW') in an architectural competition for the building held in 1927. Aalto's design went through a profound transformation from the original architectural competition proposal designed in the Nordic Classicism style (owing much to Swedish architect Gunnar Asplund, especially his Stockholm City Library) to the severely functionalist building, completed eight years later in a purist modernist style. Such architectural solutions as a sunken",
+        "to the severely functionalist building, completed eight years later in a purist modernist style. Such architectural solutions as a sunken reading-well, free-flowing ceilings and cylindrical skylights, first tested in Viipuri, would regularly appear in Aalto's works. Aalto differed from the first generation of modernist architects (such as Walter Gropius and Le Corbusier) in his predilection for natural materials: in this design, \"wood was first introduced into an otherwise modernist setting",
+        "Le Corbusier) in his predilection for natural materials: in this design, \"wood was first introduced into an otherwise modernist setting of concrete, white stucco, glass, and steel\".[5] World War II marked a turning point in the history not only of the library but the city of Vyborg itself, as it was ceded to the Soviet Union. The building had been damaged during World War II, and plans by the new",
+        "was ceded to the Soviet Union. The building had been damaged during World War II, and plans by the new Soviet authorities to repair it were proposed but never carried out.[6] The building then remained empty for a decade, causing even more damage, including the destruction of the wave-shaped auditorium ceiling. During the 1950s schemes were drawn up for its restoration \u2014 including a version in the Stalinist classical style",
+        "ceiling. During the 1950s schemes were drawn up for its restoration \u2014 including a version in the Stalinist classical style typical of the time \u2014 by architect Aleksandr Shver. Until the coming to power of Mikhail Gorbachev, few people from Finland, let alone other Western countries, visited Vyborg, and there were many different accounts in Western architectural texts about the condition of the library, including erroneous reports of its complete",
+        "were many different accounts in Western architectural texts about the condition of the library, including erroneous reports of its complete destruction.[7] The building is now included in the Russian Federation's list of objects of historical and cultural heritage."
+      ],
+      "raw_content": "Vyborg Library (Finnish: Viipurin kaupunginkirjasto) is a library in Vyborg, Russia, built during the time of Finnish sovereignty (1918 to 1940-44), before the Finnish city of Viipuri was annexed by the former USSR and its Finnish name was changed to Vyborg by the Soviet authorities.\n\nThe building, built from 1927 to 1935, is an internationally acclaimed design by the Finnish architect Alvar Aalto and one of the major examples of 1920s functionalist architectural design. The library is considered one of the first manifestations of \"regional modernism\".[2] It is particularly famous for its wave-shaped ceiling in the auditorium, the shape of which, Aalto argued, was based on acoustic studies.[3] On completion the library was known as Viipuri Library, but after the Second World War and Soviet annexation, the library was renamed the Nadezhda Krupskaya Municipal Library. Nowadays, integrated in the Russian Federation city of Vyborg, the library is officially known as the Central City Alvar Aalto Library.\n\nThe library restoration project lasted almost two decades from 1994 until late 2013.[4] The restoration work was awarded with the World Monuments Fund / Knoll Modernism Prize in 2014 and the Europa Nostra Award in 2015.\n\nAalto received the commission to design the library after winning first prize (with his proposal titled 'WWW') in an architectural competition for the building held in 1927. Aalto's design went through a profound transformation from the original architectural competition proposal designed in the Nordic Classicism style (owing much to Swedish architect Gunnar Asplund, especially his Stockholm City Library) to the severely functionalist building, completed eight years later in a purist modernist style. Such architectural solutions as a sunken reading-well, free-flowing ceilings and cylindrical skylights, first tested in Viipuri, would regularly appear in Aalto's works. Aalto differed from the first generation of modernist architects (such as Walter Gropius and Le Corbusier) in his predilection for natural materials: in this design, \"wood was first introduced into an otherwise modernist setting of concrete, white stucco, glass, and steel\".[5]\n\nWorld War II marked a turning point in the history not only of the library but the city of Vyborg itself, as it was ceded to the Soviet Union. The building had been damaged during World War II, and plans by the new Soviet authorities to repair it were proposed but never carried out.[6] The building then remained empty for a decade, causing even more damage, including the destruction of the wave-shaped auditorium ceiling. During the 1950s schemes were drawn up for its restoration \u2014 including a version in the Stalinist classical style typical of the time \u2014 by architect Aleksandr Shver. Until the coming to power of Mikhail Gorbachev, few people from Finland, let alone other Western countries, visited Vyborg, and there were many different accounts in Western architectural texts about the condition of the library, including erroneous reports of its complete destruction.[7] The building is now included in the Russian Federation's list of objects of historical and cultural heritage.",
+      "asset_path": "data\\example_dataset\\Vyborg Library\\description.txt"
+    },
+    {
+      "asset_path": "data\\example_dataset\\Vyborg Library\\description.txt",
+      "category": "text",
+      "answers": {
+        "form": [
+          "The Vyborg Library presents a primarily functionalist form with clean, geometric lines typical of modernist architecture.",
+          "It features a distinct wave-shaped ceiling in the auditorium, which Aalto argued was based on acoustic studies, emphasizing both aesthetic and practical considerations.",
+          "The design also includes a sunken reading-well and free-flowing ceilings which were pioneering ideas at the time.",
+          "The cylindrical skylights are notable, adding both natural light and a unique design element."
+        ],
+        "style": [
+          "The building is a major example of 1920s functionalist architectural design, part of the broader modernist movement.",
+          "Originally conceptualized in the Nordic Classicism style, the design evolved into a purist modernist style, reflecting a shift in architectural trends at the time."
+        ],
+        "material usage": [
+          "Aalto's design marked a divergence from other modernist architects by introducing natural materials into the design.",
+          "Notably, wood was incorporated alongside materials like concrete, white stucco, glass, and steel, creating a warmer, more inviting environment."
+        ],
+        "sense of feeling": [
+          "The library evokes a sense of harmony and innovation, blending functionality with aesthetic appeal.",
+          "Its use of natural materials and light creates a welcoming and thoughtful space for users."
+        ],
+        "relations to the surrounding context": [
+          "Originally located in a Finnish city, the library's design carries the influences of both Finnish architectural traditions and the broader modernist movement.",
+          "Post World War II, its location in a newly Soviet city placed it into different cultural and political contexts, reflecting shifting historical narratives."
+        ],
+        "passive design techniques": [
+          "The building's cylindrical skylights are a passive design technique, used to enhance natural lighting in the interior spaces.",
+          "The wave-shaped ceiling in the auditorium was designed with acoustics in mind, providing a practical, passive solution for sound management."
+        ],
+        "general design highlights": [
+          "The wave-shaped auditorium ceiling is a particularly renowned feature, noted for both its aesthetic form and acoustic functionality.",
+          "The use of a sunken reading-well and free-flowing ceilings was innovative and would appear in Aalto\u2019s subsequent works.",
+          "The library has undergone extensive restoration efforts recognized by significant awards, highlighting its historical and cultural importance."
+        ]
+      },
+      "multi_modal_embedding": []
+    },
+    {
+      "asset_path": "data\\example_dataset\\Vyborg Library\\1080px-Vyborg_Library_Interior2_(cropped).jpg",
+      "category": "interior",
+      "answers": {
+        "form": [
+          "The space is characterized by a long, linear form that extends horizontally.",
+          "The ceiling appears to be gently sloping or undulating, adding dynamic movement to the space.",
+          "The arrangement of the chairs is orderly, reinforcing the linearity of the design."
+        ],
+        "style": [
+          "The style reflects a modernist approach with an emphasis on simplicity and function.",
+          "There is a strong influence of minimalist aesthetics seen in the use of clean lines and uncluttered spaces."
+        ],
+        "material usage": [
+          "Wood is predominantly used, covering the ceiling, walls, and flooring, creating warmth and a natural ambiance.",
+          "Glass is extensively utilized in the large windows, allowing for transparency and a connection with the outdoors."
+        ],
+        "sense of feeling": [
+          "The use of natural materials like wood contributes to a warm and inviting atmosphere.",
+          "The large windows create an open feeling and a sense of tranquility by merging the interior with the natural surroundings."
+        ],
+        "relations to the surrounding context": [
+          "The extensive use of glass provides a seamless visual connection to the green, park-like setting outside.",
+          "The natural materials and open layout harmonize subtly with the outdoor environment."
+        ],
+        "passive design techniques": [
+          "The large windows allow for ample natural light to flood the space, reducing the need for artificial lighting.",
+          "The strategic placement of plants near the windows suggests an effort to improve indoor air quality naturally."
+        ],
+        "general design highlights": [
+          "The combination of wood and large glazing harmonizes the interior with nature.",
+          "The orderly layout of seating suggests a space designed for communal, organized activities."
+        ]
+      },
+      "multi_modal_embedding": []
+    },
+    {
+      "asset_path": "data\\example_dataset\\Vyborg Library\\1112px-Vyborg_AaltoLibrary_006_9856.jpg",
+      "category": "facade",
+      "answers": {
+        "form": [
+          "The building features a stark, geometric form with clean lines.",
+          "Its volume is articulated in a series of rectangular blocks, creating a sense of modern minimalism."
+        ],
+        "style": [
+          "The architectural style is reflective of the International Style, emphasizing function and simplicity.",
+          "Elements of modernism are evident in its absence of ornamentation and emphasis on horizontal and vertical lines."
+        ],
+        "material usage": [
+          "The predominant material is smooth white plaster, lending a clean and crisp appearance.",
+          "Metal is used for details like railings, contributing to the modern aesthetic."
+        ],
+        "sense of feeling": [
+          "The design imparts a feeling of calm and order, due to its minimalist aesthetic.",
+          "There is a strong sense of harmony between form and function, typical of modernist ideals."
+        ],
+        "relations to the surrounding context": [
+          "The building is set against a natural backdrop, which contrasts with its stark, geometric form.",
+          "Large windows seem to connect the interior with the surrounding greenery, integrating the building with its context."
+        ],
+        "passive design techniques": [
+          "The large windows suggest an intention to harness natural light for interior illumination, enhancing energy efficiency.",
+          "Overhangs and recessed sections may provide shade, reducing heat gain."
+        ],
+        "general design highlights": [
+          "The simplicity and order of the design are key highlights, reflecting the core principles of modern architecture.",
+          "Attention to proportions and the relationship between forms underscores the architect's commitment to purity of design."
+        ]
+      },
+      "multi_modal_embedding": []
+    },
+    {
+      "asset_path": "data\\example_dataset\\Vyborg Library\\1280px-Vyborg_city_library_interior.jpg",
+      "category": "interior",
+      "answers": {
+        "form": [
+          "The architectural form is open and inviting, featuring an atrium-like space.",
+          "The design utilizes multiple levels of bookshelves that surround the central area."
+        ],
+        "style": [
+          "The style is modern and functional, focusing on accessibility and usability.",
+          "There is a minimalist approach evident in the clean lines and unobtrusive design elements."
+        ],
+        "material usage": [
+          "The primary materials include wood for the bookshelves and railings, providing warmth.",
+          "The floor appears to be made of a neutral, durable material like polished concrete or laminate."
+        ],
+        "sense of feeling": [
+          "The space feels cozy and intimate despite its openness, fostering a sense of community and concentration.",
+          "Natural light seems to be a key feature, enhancing the warm and inviting atmosphere."
+        ],
+        "relations to the surrounding context": [
+          "The interior design complements an intellectual setting, likely fitting in an academic or cultural institution."
+        ],
+        "passive design techniques": [
+          "The integration of natural light reduces the need for artificial lighting, enhancing energy efficiency."
+        ],
+        "general design highlights": [
+          "The tiered shelving not only maximizes storage space but also creates visual interest.",
+          "The central open area is versatile, allowing for various activities like reading or study gatherings."
+        ]
+      },
+      "multi_modal_embedding": []
+    }
+  ]
+}

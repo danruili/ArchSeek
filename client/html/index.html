@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arch🏠Seek</title>
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/js/refresh.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css"></head>
+<body>
+    <div class="title">
+        <h1>Arch🏠Seek</h1>
+        <p>Retrieving Architectural Case Studies Using Vision-Language Models</p>
+    </div>
+
+    <!-- Text field and button -->
+    <div class="query-banner">
+        <input type="text" id="inputField" placeholder="Enter some text" class="input-field">
+        <button id="runButton" class="search-btn">Find</button>
+    </div>
+    <!-- Element to display the result -->
+    <div class="query-info">
+        <div class="info-panel">
+            <div class="query-thumbail" id="query-thumbail"></div>
+        </div>
+        <div class="slider-panel">
+            <div class="queryset" id="queryset"></div>
+        </div>
+        <div class="config-panel">
+            <div class="config-apply" id="config-apply"></div>
+        </div> 
+    </div>
+    <div class="result" id="result"></div>
+
+    <!-- JavaScript to handle button click and make AJAX request -->
+    <script>
+        $(document).ready(function(){
+            $('#runButton').click(function(){
+                // Get the value from the text field
+                var inputData = $('#inputField').val();
+                console.log("Input Data: " + inputData);
+                
+                // Make the AJAX request to the Flask app
+                $.post('/backend-api/query', {inputData: inputData}, function(resultData){
+                    result = refreshResults(resultData);
+                    // Update the result div with the response
+                    $('#result').html(result);
+
+                    // update the query thumbnail and sliders
+                    query_set = refreshQuery(resultData);
+                    $('#queryset').html(query_set);
+
+                    // add a button to apply the adjusted weights
+                    btn_html = '<button id="applyButton" class="apply-btn">Apply New Weights</button>';
+                    $('#config-apply').html(btn_html);
+
+                });
+            });
+            
+            // apply the adjusted weights
+            $(document).on('click', '#applyButton', function(){
+                var weights = [];
+                for (var i = 0; i < $('.slider').length; i++) {
+                    weights.push($('#slider' + i).val());
+                }
+                // convert the weights to a string
+                weights = weights.join(',');
+                console.log(weights);
+                $.post('/backend-api/apply-weights', {weights: weights}, function(resultData){
+                    var result = refreshResults(resultData);
+                    // Update the result div with the response
+                    $('#result').html(result);
+                });
+            });
+        
+        });
+    </script>
+</body>
+</html>
