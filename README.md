@@ -59,7 +59,7 @@ If you want to use the program in terminal, you can use the following commands:
 python -m retrieval.query --query "red brick" --database "data/example_index"
 ```
 
-Notice: we use Replicate API for ImageBind model, which might take a while to warm up if the model is not frequently accessed. Please be patient.
+Notice: we use Replicate API for ImageBind model, which might take a while to warm up if the model is not frequently accessed. Please be patient. Also, it might hit the API rate limit if too many requests are sent in a short period of time, leading to temporary unavailability.
 
 ## Use your own dataset
 
