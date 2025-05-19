@@ -1,4 +1,6 @@
-from flask import render_template, send_file, redirect
+from flask import render_template, send_file, redirect, make_response, request
+import secrets
+
 
 
 class Website:
@@ -15,8 +17,25 @@ class Website:
             }
         }
 
+    def _get_or_create_session_id(self):
+        session_id = request.cookies.get("_archseek_server_session")
+        if not session_id:
+            session_id = secrets.token_hex(16)
+        return session_id
+
     def _index(self):
-        return render_template('index.html')
+        response = make_response(render_template("index.html"))
+        # Set the session cookie if it doesn't exist
+        session_id = self._get_or_create_session_id()
+        response.set_cookie(
+            "_archseek_server_session",
+            session_id,
+            httponly=False,  # Changed to False for development
+            secure=False,    # Changed to False for development
+            samesite="Lax",
+            max_age=60 * 60,
+        )
+        return response
 
     def _assets(self, folder: str, file: str):
         try:
