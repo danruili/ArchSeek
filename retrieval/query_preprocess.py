@@ -93,7 +93,8 @@ def query_preprocess(query: str, selected_ids: List[int] = None) -> QuerySet:
         selected_ids = []
 
     # check if the query is a file path to an image
-    if Path(query).exists():
+    # if Path(query).exists():
+    if False:
         logging.info("Query recognized as an image file path")
 
         # get the text description of the image

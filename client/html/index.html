@@ -7,10 +7,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/assets/js/refresh.js"></script>
     <link rel="stylesheet" href="/assets/css/style.css"></head>
+    <style>
+        .note {
+            font-size: 12px;
+            color: #535353;
+            background-color: #cecece;
+            max-width: 500px;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
 <body>
     <div class="title">
         <h1>Arch🏠Seek</h1>
         <p>Retrieving Architectural Case Studies Using Vision-Language Models</p>
+        <div class="note">Note: Due to API latency, this preview does not support image-based search or image-embedding query. For complete experience, please replicate using our <a href="https://github.com/danruili/ArchSeek">GitHub repo </a></div>
     </div>
 
     <!-- Text field and button -->
@@ -20,9 +32,9 @@
     </div>
     <!-- Element to display the result -->
     <div class="query-info">
-        <div class="info-panel">
+        <!-- <div class="info-panel">
             <div class="query-thumbail" id="query-thumbail"></div>
-        </div>
+        </div> -->
         <div class="slider-panel">
             <div class="queryset" id="queryset"></div>
         </div>

@@ -18,8 +18,8 @@ def embed_query_set(query_set: QuerySet) -> QuerySet:
     """
     for query in query_set.queries:
         if not query.txt_embedding and query.content:
-            query.txt_multi_modal_embedding = np.array(batch_text_embeddings([query.content])[0])
-            query.txt_multi_modal_embedding = query.txt_multi_modal_embedding / np.linalg.norm(query.txt_multi_modal_embedding)
+            # query.txt_multi_modal_embedding = np.array(batch_text_embeddings([query.content])[0])
+            # query.txt_multi_modal_embedding = query.txt_multi_modal_embedding / np.linalg.norm(query.txt_multi_modal_embedding)
             query.txt_embedding = LLMHandler().get_text_embeddings(query.content)
     return query_set
 
