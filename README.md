@@ -1,5 +1,7 @@
 # ArchSeek🏠🔍
 
+[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2503.18680) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Web demo](https://img.shields.io/badge/Web%20demo-https%3A%2F%2Farchseek.onrender.com-darkgreen)](https://archseek.onrender.com)
+
 Efficiently searching for relevant case studies is critical in architectural design, as designers rely on precedent examples to guide or inspire their ongoing projects. Traditional text-based search systems, while useful, struggle to capture the inherently visual and complex nature of architectural information. 
 
 This paper introduces **ArchSeek🏠🔍**, an innovative case study search system with recommendation capability, tailored for architecture design professionals 📐. Leveraging vision-language models and cross-modal embeddings, ArchSeek enables domain-specific understandings of design cases, facilitating:
@@ -59,7 +61,9 @@ If you want to use the program in terminal, you can use the following commands:
 python -m retrieval.query --query "red brick" --database "data/example_index"
 ```
 
-Notice: we use Replicate API for ImageBind model, which might take a while to warm up if the model is not frequently accessed. Please be patient. Also, it might hit the API rate limit if too many requests are sent in a short period of time, leading to temporary unavailability.
+Notice: 
+- We use Replicate API for ImageBind model, which might take a while to warm up if the model is not frequently accessed. Please be patient. Also, it might hit the API rate limit if too many requests are sent in a short period of time, leading to temporary unavailability.
+- By default the precomputed data can only be run on Windows. If you want to run it on Linux, please delete all `.pkl` data in the `data/example_index` and recompute the `.pkl` data by conducting the step 2 in the next section.
 
 ## Use your own dataset
 
