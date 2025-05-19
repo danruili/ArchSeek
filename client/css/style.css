@@ -31,6 +31,9 @@ body {
     font-weight: bold;
     font-family: 'Bahnschrift', sans-serif;
     margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
 
 .query-banner {
@@ -235,4 +238,31 @@ body {
     background-image: -ms-linear-gradient(-45deg, var(--mask_gray) 25%, transparent 25%, transparent 50%, var(--mask_gray) 50%, var(--mask_gray) 75%, transparent 75%, transparent);
     background-image: -o-linear-gradient(-45deg, var(--mask_gray) 25%, transparent 25%, transparent 50%, grvar(--mask_gray)ay 50%, var(--mask_gray) 75%, transparent 75%, transparent);
     background-image: linear-gradient(-45deg, var(--mask_gray) 25%, transparent 25%, transparent 50%, var(--mask_gray) 50%, var(--mask_gray) 75%, transparent 75%, transparent);
+}
+
+
+@media (max-width: 960px) {
+    .query-banner .input-field{
+        width: 70%;
+        margin-right: 10px;
+    }
+    .query-banner .search-btn{
+        width: 20%;
+    }
+    .query-info{
+        flex-direction: column;
+    }
+    .query-info .info-panel{
+        flex: 1;
+    }
+    .query-info .slider-panel{
+        flex: 1;
+    }
+
+    .result{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    .title h1 {
+        font-size: 2.5em;
+    }
 }
