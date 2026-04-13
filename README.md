@@ -108,3 +108,25 @@ python -m preprocess.build --data "data/example_dataset" --output "data/example_
     "index_directory": "<your_index_path>"
 }
 ```
+
+## License
+
+This project contains multiple components with different licenses:
+
+- **Code**: Released under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html)  
+- **`data/` folder**: Released under the [Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)  
+
+Please ensure compliance with the respective licenses when using or redistributing each component.
+
+## Cite
+
+```bibtex
+@article{Li2025,
+author = "Danrui Li and Yichao Shi and Yaluo Wang and Ziying Shi and Mubbasir Kapadia",
+title = "{ArchSeek: Retrieving Architectural Case Studies Using Vision-Language Models}",
+year = "2025",
+month = "9",
+url = "https://datahub.hku.hk/articles/conference_contribution/28_ArchSeek_Retrieving_Architectural_Case_Studies_Using_Vision-Language_Models/29350997",
+doi = "10.25442/hku.29350997.v1"
+}
+```
